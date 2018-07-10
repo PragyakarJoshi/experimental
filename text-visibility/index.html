@@ -5,6 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Color Generator</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://www.gstatic.com/firebasejs/5.2.0/firebase.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script>
+
+</script>
     <script src="app.js"></script>
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
@@ -39,10 +44,9 @@
     <br>
     <h4>Which text is more readable?</h4>
     <div class="button">
-        
         <br>
-        <button class="btn btn-dark">Black</button>
-        <button class="btn btn-light">White</button>
+        <button class="btn btn-dark" onclick="saveData(this)" value="dark">Black</button>
+        <button class="btn btn-light" onclick="saveData(this)" value="light">White</button>
     </div>
     </div>
 
