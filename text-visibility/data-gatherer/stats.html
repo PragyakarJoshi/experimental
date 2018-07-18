@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Color Generator Stats</title>
+    
+    <script src="https://www.gstatic.com/firebasejs/5.2.0/firebase.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="stats.js"></script>
+
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <div class="stat-box">
+        <p class="stat-title">Statistics</p>
+        <div class="stat-total-box">
+            <p id="stat-total"></p>
+            <br>
+            <p id="stat-label">Total Entries</p>
+        </div>
+
+        <div class="stat-light-box">
+            <p id="stat-light"></p>
+            <br>
+            <p id="stat-label">Total Light</p>
+        </div>
+
+        <div class="stat-dark-box">
+                <p id="stat-dark"></p>
+                <br>
+                <p id="stat-label">Total Dark</p>
+            </div>
+    </div>
+
+</body>
+</html>

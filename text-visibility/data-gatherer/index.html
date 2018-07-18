@@ -1,57 +1,53 @@
 <!DOCTYPE html>
 <html>
 <head>
+
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Color Generator</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Color Generator</title>
+    
     <script src="https://www.gstatic.com/firebasejs/5.2.0/firebase.js"></script>
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-<script>
-
-</script>
     <script src="app.js"></script>
+
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
 
-
 </head>
 <body>
+
     <div class="landing" id="land">
-    <br>
-    <div id="box">
-        <p class="p1">
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dicta repellat mollitia, dolorem nobis facilis molestias! Nostrum molestiae, distinctio iusto ab, voluptas rerum autem est tempore provident incidunt magnam ex explicabo?
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dicta repellat mollitia, dolorem nobis facilis molestias! Nostrum molestiae, distinctio iusto ab, voluptas rerum autem est tempore provident incidunt magnam ex explicabo?
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dicta repellat mollitia, dolorem nobis facilis molestias! Nostrum molestiae, distinctio iusto ab, voluptas rerum autem est tempore provident incidunt magnam ex explicabo?
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dicta repellat mollitia, dolorem nobis facilis molestias! Nostrum molestiae, distinctio iusto ab, voluptas rerum autem est tempore provident incidunt magnam ex explicabo?
-        </p>
-        <br><br>
-        <p class="p2">
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dicta repellat mollitia, dolorem nobis facilis molestias! Nostrum molestiae, distinctio iusto ab, voluptas rerum autem est tempore provident incidunt magnam ex explicabo?
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dicta repellat mollitia, dolorem nobis facilis molestias! Nostrum molestiae, distinctio iusto ab, voluptas rerum autem est tempore provident incidunt magnam ex explicabo?
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dicta repellat mollitia, dolorem nobis facilis molestias! Nostrum molestiae, distinctio iusto ab, voluptas rerum autem est tempore provident incidunt magnam ex explicabo?
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dicta repellat mollitia, dolorem nobis facilis molestias! Nostrum molestiae, distinctio iusto ab, voluptas rerum autem est tempore provident incidunt magnam ex explicabo?
-        </p>    
-    </div>
-    <br>
-    <p class="color-code">
-        r = <span id="col-red"></span>,
-        g = <span id="col-green"></span>,
-        b = <span id="col-blue"></span>
-    </p>
-    <br>
-    <br>
-    <h4>Which text is more readable?</h4>
-    <div class="button">
         <br>
-        <button class="btn btn-dark" onclick="saveData(this)" value="dark">Black</button>
-        <button class="btn btn-light" onclick="saveData(this)" value="light">White</button>
+        <div id="box">
+            <p class="p1">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dicta repellat mollitia, dolorem nobis facilis molestias! Nostrum molestiae, distinctio iusto ab, voluptas rerum autem est tempore provident incidunt magnam ex explicabo?
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dicta repellat mollitia, dolorem nobis facilis molestias! Nostrum molestiae, distinctio iusto ab, voluptas rerum autem est tempore provident incidunt magnam ex explicabo?
+            </p>
+            <br><br>
+            <p class="p2">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dicta repellat mollitia, dolorem nobis facilis molestias! Nostrum molestiae, distinctio iusto ab, voluptas rerum autem est tempore provident incidunt magnam ex explicabo?
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dicta repellat mollitia, dolorem nobis facilis molestias! Nostrum molestiae, distinctio iusto ab, voluptas rerum autem est tempore provident incidunt magnam ex explicabo?
+            </p>    
+        </div>
+        <br>
+        <p class="color-code">
+            r = <span id="col-red"></span>,
+            g = <span id="col-green"></span>,
+            b = <span id="col-blue"></span>
+        </p>
+        <br>
+        <br>
+        <br><br>
+        <br>
+        <h4>Which text is more readable?</h4>
+        <div class="button">
+            <br>
+            <button class="btn btn-dark" onclick="saveData(this)" value="dark">Black</button>
+            <button class="btn btn-light" onclick="saveData(this)" value="light">White</button>
+        </div>
     </div>
-    </div>
 
-
-
-    
 </body>
 </html>
